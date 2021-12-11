@@ -1,7 +1,7 @@
-package com.usa.ciclo4.reto2ciclo4.controller;
+package com.usa.ciclo4.reto3ciclo4.controller;
 
-import com.usa.ciclo4.reto2ciclo4.model.Product;
-import com.usa.ciclo4.reto2ciclo4.service.ProductService;
+import com.usa.ciclo4.reto3ciclo4.model.Product;
+import com.usa.ciclo4.reto3ciclo4.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;

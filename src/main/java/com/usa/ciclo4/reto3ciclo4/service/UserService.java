@@ -1,7 +1,7 @@
-package com.usa.ciclo4.reto2ciclo4.service;
+package com.usa.ciclo4.reto3ciclo4.service;
 
-import com.usa.ciclo4.reto2ciclo4.model.User;
-import com.usa.ciclo4.reto2ciclo4.repository.UserRepository;
+import com.usa.ciclo4.reto3ciclo4.model.User;
+import com.usa.ciclo4.reto3ciclo4.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -47,6 +47,14 @@ public class UserService {
                 }
                 if (user.getName() != null) {
                     dbUser.get().setName(user.getName());
+                }
+
+                if (user.getBirthtDay() != null){
+                    dbUser.get().setBirthtDay(user.getBirthtDay());
+                }
+
+                if (user.getMonthBirthtDay() != null){
+                    dbUser.get().setMonthBirthtDay(user.getMonthBirthtDay());
                 }
                 if (user.getAddress() != null) {
                     dbUser.get().setAddress(user.getAddress());

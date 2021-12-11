@@ -1,4 +1,4 @@
-package com.usa.ciclo4.reto2ciclo4.model;
+package com.usa.ciclo4.reto3ciclo4.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

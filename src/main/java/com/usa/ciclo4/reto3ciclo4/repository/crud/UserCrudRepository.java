@@ -1,6 +1,6 @@
-package com.usa.ciclo4.reto2ciclo4.repository.crud;
+package com.usa.ciclo4.reto3ciclo4.repository.crud;
 
-import com.usa.ciclo4.reto2ciclo4.model.User;
+import com.usa.ciclo4.reto3ciclo4.model.User;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 import java.util.Optional;
